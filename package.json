@@ -2,8 +2,7 @@
   "name": "postcss-npm-boilerplate",
   "version": "1.0.0",
   "description": "A straightforward boilerplate for using the PostCSS ecosystem via npm scripts.",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thefoxis/postcss-npm-boilerplate.git"
@@ -18,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/thefoxis/postcss-npm-boilerplate/issues"
   },
-  "homepage": "https://github.com/thefoxis/postcss-npm-boilerplate#readme"
+  "homepage": "https://github.com/thefoxis/postcss-npm-boilerplate#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "postcss-cli": "^2.5.2",
+    "postcss-cssnext": "^2.6.0",
+    "postcss-import": "^8.1.2",
+    "postcss-simple-vars": "^2.0.0"
+  }
 }
