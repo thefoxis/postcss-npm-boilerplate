@@ -1,0 +1,22 @@
+{
+  "name": "postcss-npm-boilerplate",
+  "version": "1.0.0",
+  "description": "A straightforward boilerplate for using the PostCSS ecosystem via npm scripts.",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thefoxis/postcss-npm-boilerplate.git"
+  },
+  "keywords": [
+    "modular css",
+    "css",
+    "postcss"
+  ],
+  "author": "Karolina Szczur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thefoxis/postcss-npm-boilerplate/issues"
+  },
+  "homepage": "https://github.com/thefoxis/postcss-npm-boilerplate#readme"
+}
