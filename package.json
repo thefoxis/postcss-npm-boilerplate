@@ -6,7 +6,9 @@
     "postinstall": "npm run watch",
     "watch": "onchange 'src/*.css' -- npm run build",
     "minify": "postcss -u cssnano dist/main.css -o dist/main.min.css",
-    "build": "postcss -c postcss.config.json && npm run minify"
+    "cleanup": "del-cli dist/main.css",
+    "build:css": "postcss -c postcss.config.json",
+    "build": "npm run build:css && npm run minify && npm run cleanup"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,7 @@
   "homepage": "https://github.com/thefoxis/postcss-npm-boilerplate#readme",
   "devDependencies": {
     "cssnano": "^3.7.1",
+    "del-cli": "^0.2.0",
     "onchange": "^2.5.0",
     "postcss-cli": "^2.5.2",
     "postcss-cssnext": "^2.6.0",
