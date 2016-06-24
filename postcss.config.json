@@ -1,0 +1,10 @@
+{
+  "use": ["postcss-import", "postcss-simple-vars", "postcss-cssnext"],
+  "input": "src/main.css",
+  "output": "dist/main.css",
+  "local-plugins": "true",
+  "postcss-cssnext": {
+    "browsers": "last 2 versions",
+    "verbose":  true
+  }
+}

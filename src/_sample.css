@@ -1,0 +1,16 @@
+@custom-media --small-viewport (max-width: 30em);
+
+h1 {
+  color: $blue;
+
+  & a {
+    text-decoration: underline;
+    color: inherit;
+  }
+}
+
+@media (--small-viewport) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
